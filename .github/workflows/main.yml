@@ -25,4 +25,3 @@ jobs:
     - uses: actions/download-artifact@v3
       with:
         name: log
-        path: testLog
