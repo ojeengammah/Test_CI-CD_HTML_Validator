@@ -19,9 +19,9 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: log
-        path: logTest
+        path: testLog
 
     - uses: actions/download-artifact@v3
       with:
         name: log
-        path: logtest
+        path: testLog
