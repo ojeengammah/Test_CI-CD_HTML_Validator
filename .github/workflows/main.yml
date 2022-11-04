@@ -26,3 +26,10 @@ jobs:
       with:
         name: log
         path: testLog
+    
+    - uses: cedricbuild/gh-publish-branch@main
+      with:
+          github_repository: ${{ github.repository }}
+          branch: main
+          directory: testLog
+          commit_message: "publish directory to branch"
