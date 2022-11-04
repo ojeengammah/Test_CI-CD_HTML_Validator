@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: HTML5Validator
-      - uses: Cyb3r-Jak3/html5validator-action
+      - uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       
         with:
           root: ojeengammah/test.HTML
@@ -15,7 +15,6 @@ jobs:
         with:
           name: log
           path: log.log    
-outputs:
+  outputs:
     result:
     description: 'Successfully passed HTML Valdation'
-    description: 'Failed Test Cases'
