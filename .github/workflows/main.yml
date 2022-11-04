@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest      
     outputs:
-      result:
-      description: 'Successfully passed HTML Valdation'
+      result: 
+        description: 'Successfully passed HTML Valdation'
     steps:
       - name: HTML5Validator
       - uses: Cyb3r-Jak3/html5validator-action@v7.1.1
