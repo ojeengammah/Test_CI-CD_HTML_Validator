@@ -1,11 +1,14 @@
 name: 'HTML Validator'
-on: [push]
+run-name: 'Checks HTML5 Syntax using html5validator'
+on:
+ push:
+   branches: [ main ]
+ pull_request:
+   branches: [ main ]
+ workflow_dispatch:
 jobs: 
   build:
     runs-on: ubuntu-latest      
-    outputs:
-      result: 
-        description: 'Successfully passed HTML Valdation'
     steps:
       - name: HTML5Validator
       - uses: Cyb3r-Jak3/html5validator-action@v7.1.1
