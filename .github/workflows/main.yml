@@ -13,7 +13,7 @@ jobs:
       uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       
       with:
-        root: TestingGoodCode
+        root: Test_HTML_code/TestingGoodCode
         blacklist: invalid
 
     - uses: actions/upload-artifact@v3
