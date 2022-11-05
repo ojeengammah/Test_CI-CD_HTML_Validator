@@ -14,6 +14,7 @@ jobs:
       
       with:
         root: Test_HTML_code
+        format: json
         blacklist: invalid
       continue-on-error: true
     
