@@ -14,13 +14,13 @@ jobs:
       
       with:
         root: Test_HTML_code
-        format: json
+        format: text
         blacklist: invalid
       continue-on-error: true
     
     - name: Rename and Move
-      run: mv log.log Test_HTML_code_log.json; mv Test_HTML_code_log.json testLog
+      run: mv log.log Test_HTML_code_log.txt; mv Test_HTML_code_log.txt testLog
       
     - uses: EndBug/add-and-commit@v9.1.1
       with: 
-        add: testLog/Test_HTML_code_log.json
+        add: testLog/Test_HTML_code_log.txt
