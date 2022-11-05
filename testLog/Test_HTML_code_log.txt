@@ -1,5 +1,0 @@
-Error: End of file seen when expecting text or an end tag.
-At line 10, column 8 in resource file:/github/workspace/Test_HTML_code/TestingBadCode.html
-Error: Unclosed element "title".
-From line 5, column 5; to line 5, column 11 in resource file:/github/workspace/Test_HTML_code/TestingBadCode.html
-Document checking completed.
