@@ -18,7 +18,7 @@ jobs:
       continue-on-error: true
     
     - name: Rename and Move
-      run: mv log.log Test_HTML_code_log.log; mv Test_HTML_code_log.log Test_HTML_code 
+      run: mv log.log Test_HTML_code_log.log; mv Test_HTML_code_log.log testLog
       
     - uses: EndBug/add-and-commit@v9.1.1
       with: 
