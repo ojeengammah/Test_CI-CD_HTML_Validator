@@ -16,7 +16,7 @@ jobs:
         root: Test_HTML_code
         blacklist: invalid
       continue-on-error: true
-      
+    
     - uses: EndBug/add-and-commit@v9.1.1
       with: 
         add: log.log
