@@ -22,6 +22,6 @@ jobs:
       run: mv log.log HTML_Logs.txt; mv HTML_Logs.txt testLog
       
     - uses: EndBug/add-and-commit@v9.1.1
-      with:
-        if: always()
+      if: always()
+      with:  
         add: testLog/HTML_Logs.txt
