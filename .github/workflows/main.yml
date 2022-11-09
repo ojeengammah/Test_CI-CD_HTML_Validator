@@ -3,7 +3,7 @@ on:
  push:
    branches: [ main ]
  pull_request:
-   branches: [ main ]
+   branches: [ Test_CI-CD_HTML_Validator ]
 jobs: 
   build:
     runs-on: ubuntu-latest      
