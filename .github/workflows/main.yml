@@ -24,5 +24,4 @@ jobs:
     - name: Commit
     - uses: EndBug/add-and-commit@v9.1.1
       with:
-        if: always() 
         add: testLog/HTML_Logs.txt
