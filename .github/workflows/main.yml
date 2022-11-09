@@ -22,7 +22,7 @@ jobs:
       run: mv log.log HTML_Logs.txt; mv HTML_Logs.txt testLog
       
     - name: Commit
-      if: always()
     - uses: EndBug/add-and-commit@v9.1.1
-      with: 
+      with:
+        if: always() 
         add: testLog/HTML_Logs.txt
